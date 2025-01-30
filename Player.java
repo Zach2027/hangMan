@@ -15,6 +15,11 @@ public int getP2Score(){
 
 
 
-public void addScore(String Player, int Score){
-    if 
+public void addScore(String Player, int score){
+    if (player1Turn){
+        P1Score += score;
+    }
+    else{
+        P2Score += score;
+    }
 }
