@@ -12,6 +12,16 @@ public class CreatePhrase {
         int choice = (int) (math.random *  words.length);
         string word = words[choice];
 
+        string mystery = " ";
+
+        for (int i = 0; i < word.length; i ++){
+
+            mystery += "_";
+        }
+
+
+
+
     }
     
 
