@@ -1,20 +1,20 @@
 import java.util.Scanner;
 
 public class CreatePhrase {
-    static string word = "";
+    private static String word = "";
 
-    private String[] words = ["hello","one","skiing","time","zig","zag","staff","witch","which","twitch"];
+    private static String[] words = {"hello","one","skiing","time","zig","zag","staff","witch","which","twitch"};
     
-    private String getPhrase(){
+    public String getPhrase(){
         return word;
     }
-    private static void makePhrase(){
-        int choice = (int) (math.random *  words.length);
-        string word = words[choice];
+    public static void makePhrase(){
+        int choice = (int) (Math.random() *  words.length);
+        word = words[choice];
 
-        string mystery = " ";
+        String mystery = " ";
 
-        for (int i = 0; i < word.length; i ++){
+        for (int i = 0; i < word.length(); i ++){
 
             mystery += "_";
         }

@@ -1,14 +1,14 @@
 import java.util.Scanner;
-
 public class RunHangman {
-    private CreatePhrase secret = new CreatePhrase();
-    private Player player1 = new Player();
-    private Player player2 = new Player();
-    System.out.println(secret); 
-    System.out.println(mystery);
-}
-private void PlayerTurn(){}
+    public void play(){
+        CreatePhrase j = new CreatePhrase();
+        System.out.println("player one, enter your name");
+        
+        j.makePhrase();
+        System.out.println(j.getPhrase());
+    }
+   
 
 
-    
-}
+
+}  
