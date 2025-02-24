@@ -12,9 +12,14 @@ public class CheckPhrase {
                 mystery = mystery.substring(0, i-1) + guess + mystery.substring(i+1);
                 }
                 else{
-                    mystery = guess + mystery.substring(i);
+                    mystery = guess + mystery.substring(i+1);
                 }
             }
+            
+            
         }
+
+        System.out.println(mystery);
     }
+    
 }
