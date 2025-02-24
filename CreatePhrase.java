@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class CreatePhrase {
     private static String word = "";
     private String mystery = "";
-    private static String[] words = {"hello", "one", "skiing", "time", "zig", "zag", "staff", "witch", "which", "twitch"};
+    private static String[] words = {"hello", "one", "skiing", "time", "zig", "zag", "staff", "witch", "which", "twitch", "abruptly", "banjo", "headsman", "tailsman","cutthroat", "jazz", "assassin", "quiz"};
     
     // Getter for word
     public final String getPhrase(){
@@ -27,5 +27,8 @@ public class CreatePhrase {
     
     public String getMystery(){
         return mystery;
+    }
+    public void setMystery(String s){
+         mystery= s;
     }
 }
