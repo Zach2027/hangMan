@@ -1,6 +1,7 @@
 public class Main{
     public static void main(String[] args) {
-       RunHangman game = new RunHangman();
+        PlayerTurn a = new PlayerTurn();
+        RunHangman game = new RunHangman();
        game.play();
     }
 }
