@@ -15,7 +15,7 @@ public class RunHangman {
                 System.out.print("Player 2 your up ");
             }
             last = j.getMystery();
-            b.checkGuess();
+            b.checkGuess(j.getPhrase(),last);
             if(last.equals(j.getMystery())){
                 a.switchTurn();
             }
